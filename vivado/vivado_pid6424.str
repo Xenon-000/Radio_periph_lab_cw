@@ -1,0 +1,308 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 6424
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Apr 27 17:08:33 CDT 2023
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1440
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	G:/program/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	G:/program/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	WCeli
+User home directory: C:/Users/WCeli
+User working directory: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: G:/program/Vivado
+HDI_APPROOT: G:/program/Vivado/2022.1
+RDI_DATADIR: G:/program/Vivado/2022.1/data
+RDI_BINDIR: G:/program/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/WCeli/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/WCeli/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/WCeli/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	G:/program/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/vivado.log
+Vivado journal file: 	G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/vivado.jou
+Engine tmp dir: 	G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/.Xil/Vivado-6424-DESKTOP-1K6AF7C
+
+Xilinx Environment Variables
+----------------------------
+XILINX: G:/program/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: G:/program/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: G:/program/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: G:/program/Vivado/2022.1
+XILINX_SDK: G:/program/Vitis/2022.1
+XILINX_VITIS: G:/program/Vitis/2022.1
+XILINX_VIVADO: G:/program/Vivado/2022.1
+XILINX_VIVADO_HLS: G:/program/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,256 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 85 MB (+87013kb) [00:00:07]
+// [Engine Memory]: 1,256 MB (+1166010kb) [00:00:07]
+// Opening Vivado Project: G:\projects\lab6\radio_periph_lab\radio_periph_lab\vivado\radio_periph_lab.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 65 MB. Current time: 4/27/23, 5:08:34 PM CDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 124 MB (+35519kb) [00:00:29]
+// WARNING: HEventQueue.dispatchEvent() is taking  2654 ms.
+// Tcl Message: open_project G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/program/Vivado/2022.1/data/ip'. 
+// [GUI Memory]: 132 MB (+2906kb) [00:00:30]
+// WARNING: HEventQueue.dispatchEvent() is taking  1040 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1235.812 ; gain = 0.000 
+// Project name: radio_periph_lab; location: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bA
+// [GUI Memory]: 146 MB (+6769kb) [00:00:34]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 155 MB (+2263kb) [00:10:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 90 MB. Current time: 4/27/23, 5:38:35 PM CDT
+// Elapsed time: 3010 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd)]", 1); // D
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd)]", 3); // D
+// Elapsed time: 158 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // n
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  1639 ms.
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Bitstream]", 5, false); // B
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// Tcl Message: set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1] 
+// [GUI Memory]: 174 MB (+12039kb) [00:54:02]
+dismissDialog("Settings"); // d
+// Elapsed time: 245 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ao
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+dismissDialog("New Project"); // f
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 100 MB. Current time: 4/27/23, 6:08:35 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 100 MB. Current time: 4/27/23, 6:38:35 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 97 MB. Current time: 4/27/23, 7:08:36 PM CDT
+// Elapsed time: 3725 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), ps7_0_axi_periph : design_1_ps7_0_axi_periph_0]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), ps7_0_axi_periph : design_1_ps7_0_axi_periph_0(STRUCTURE) (design_1.vhd)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), lowlevel_dac_intfc_0 : design_1_lowlevel_dac_intfc_0_0 (design_1_lowlevel_dac_intfc_0_0.xci)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), processing_system7_0 : design_1_processing_system7_0_0 (design_1_processing_system7_0_0.xci)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), ps7_0_axi_periph : design_1_ps7_0_axi_periph_0(STRUCTURE) (design_1.vhd)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), rst_ps7_0_125M : design_1_rst_ps7_0_125M_0 (design_1_rst_ps7_0_125M_0.xci)]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), system_ila_0 : design_1_system_ila_0_0 (design_1_system_ila_0_0.xci)]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), xpm_cdc_gen_0 : design_1_xpm_cdc_gen_0_0 (design_1_xpm_cdc_gen_0_0.xci)]", 12, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5, false); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5); // D
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5, false, false, false, false, false, true); // D - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''design_1_full_radio_0_0.xci' IP is part of a block design. Please open the block design 'design_1.bd' and customize the IP. (Re-customize IP)'
+// 'A' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5); // D
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 100 MB. Current time: 4/27/23, 7:38:36 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 98 MB. Current time: 4/27/23, 8:08:36 PM CDT
+// Elapsed time: 4097 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5, true); // D - Node
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+selectButton("NEXT", "Next >"); // JButton
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_BLOCK_DESIGN_FROM_CURRENT, "Package a block design from the current project. Choose a block design as the source for creating a new IP Definition."); // b
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_SPECIFIED_DIRECTORY_CHOOSE, "Package a specified directory. Choose a directory as the source for creating a new IP Definition."); // b
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE, "Package your current project. Use the project as the source for creating a new IP Definition."); // b
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_SPECIFIED_DIRECTORY_CHOOSE, "Package a specified directory. Choose a directory as the source for creating a new IP Definition."); // b
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_BLOCK_DESIGN_FROM_CURRENT, "Package a block design from the current project. Choose a block design as the source for creating a new IP Definition."); // b
+// 'p' command handler elapsed time: 35 seconds
+// Elapsed time: 13 seconds
+dismissDialog("Create and Package New IP"); // O
+// Elapsed time: 116 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ar
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name full_radio_v1_0_project -directory G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project' 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1355 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/program/Vivado/2022.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// WARNING: HEventQueue.dispatchEvent() is taking  1316 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1257.449 ; gain = 0.004 
+// 'i' command handler elapsed time: 14 seconds
+dismissDialog("Edit in IP Packager"); // bA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, full_radio_v1_0(arch_imp) (full_radio_v1_0.vhd)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, full_radio_v1_0(arch_imp) (full_radio_v1_0.vhd), full_radio_v1_0_S00_AXI_inst : full_radio_v1_0_S00_AXI(arch_imp) (full_radio_v1_0_S00_AXI.vhd), your_instance_name : dds_compiler_0 (dds_compiler_0.xci)]", 3, false); // D
+// Elapsed time: 482 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, full_radio_v1_0(arch_imp) (full_radio_v1_0.vhd), full_radio_v1_0_S00_AXI_inst : full_radio_v1_0_S00_AXI(arch_imp) (full_radio_v1_0_S00_AXI.vhd)]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, full_radio_v1_0(arch_imp) (full_radio_v1_0.vhd), full_radio_v1_0_S00_AXI_inst : full_radio_v1_0_S00_AXI(arch_imp) (full_radio_v1_0_S00_AXI.vhd)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, full_radio_v1_0(arch_imp) (full_radio_v1_0.vhd), full_radio_v1_0_S00_AXI_inst : full_radio_v1_0_S00_AXI(arch_imp) (full_radio_v1_0_S00_AXI.vhd)]", 2, true); // D - Node
+// Elapsed time: 68 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), lowlevel_dac_intfc_0 : design_1_lowlevel_dac_intfc_0_0 (design_1_lowlevel_dac_intfc_0_0.xci)]", 10, false); // D
+// Tcl Message: current_project radio_periph_lab 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), lowlevel_dac_intfc_0 : design_1_lowlevel_dac_intfc_0_0 (design_1_lowlevel_dac_intfc_0_0.xci)]", 10); // D
+dismissDialog("Show IP Hierarchy"); // A
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), lowlevel_dac_intfc_0 : design_1_lowlevel_dac_intfc_0_0 (design_1_lowlevel_dac_intfc_0_0.xci)]", 6); // D
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 118 MB. Current time: 4/27/23, 8:38:37 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 118 MB. Current time: 4/27/23, 9:08:37 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 116 MB. Current time: 4/27/23, 9:38:37 PM CDT
+// Elapsed time: 5747 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), lowlevel_dac_intfc_0 : design_1_lowlevel_dac_intfc_0_0 (design_1_lowlevel_dac_intfc_0_0.xci), design_1_lowlevel_dac_intfc_0_0(design_1_lowlevel_dac_intfc_0_0_arch) (design_1_lowlevel_dac_intfc_0_0.vhd)]", 7, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), processing_system7_0 : design_1_processing_system7_0_0 (design_1_processing_system7_0_0.xci)]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), ps7_0_axi_periph : design_1_ps7_0_axi_periph_0(STRUCTURE) (design_1.vhd)]", 9, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), lowlevel_dac_intfc_0 : design_1_lowlevel_dac_intfc_0_0 (design_1_lowlevel_dac_intfc_0_0.xci), design_1_lowlevel_dac_intfc_0_0(design_1_lowlevel_dac_intfc_0_0_arch) (design_1_lowlevel_dac_intfc_0_0.vhd)]", 7, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci), design_1_full_radio_0_0(design_1_full_radio_0_0_arch) (design_1_full_radio_0_0.vhd), U0 : full_radio_v1_0(arch_imp) (full_radio_v1_0.vhd), full_radio_v1_0_S00_AXI_inst : full_radio_v1_0_S00_AXI(arch_imp) (full_radio_v1_0_S00_AXI.vhd), your_instance_name : dds_compiler_0 (dds_compiler_0.xci)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd), full_radio_0 : design_1_full_radio_0_0 (design_1_full_radio_0_0.xci)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''design_1_full_radio_0_0.xci' IP is part of a block design. Please open the block design 'design_1.bd' and customize the IP. (Re-customize IP)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (toplevel.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Reading block design file <G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1951 ms.
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1272.523 ; gain = 0.082 
+dismissDialog("Open Block Design"); // bA
+// JavaFX intialization before: 1682651182479
+// JavaFX initialization after: 1682651183575
