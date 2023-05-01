@@ -11,10 +11,10 @@
 
 source design_1_auto_cc_1.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/program/Vivado/2022.1/data/ip'.
 WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
-Current IP cache path is g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.cache/ip 
+Current IP cache path is g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/ip 
 Command: synth_design -top design_1_auto_cc_1 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
@@ -22,36 +22,36 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 30072
+INFO: [Synth 8-7075] Helper process launched with PID 35972
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1294.566 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1293.691 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_cc_1' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/synth/design_1_auto_cc_1.v:53]
-INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_axi_clock_converter' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:653]
-INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
-INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_lite_async' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_cc_1' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/synth/design_1_auto_cc_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_axi_clock_converter' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:653]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_lite_async' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
 INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake' [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
 INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (0#1) [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:152]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake' (0#1) [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
-INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_lite_async' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
-INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_lite_async' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
 INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized0' [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized0' (0#1) [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
-INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
-INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized1' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized1' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
 INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized1' [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized1' (0#1) [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
-INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized1' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
-INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized2' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized1' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
+INFO: [Synth 8-6157] synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized2' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
 INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized2' [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized2' (0#1) [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:468]
-INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized2' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
-INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
-INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_axi_clock_converter' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:653]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_cc_1' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/synth/design_1_auto_cc_1.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_lite_async__parameterized2' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:516]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_clock_converter_v2_1_25_axi_clock_converter' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/e893/hdl/axi_clock_converter_v2_1_vl_rfs.v:653]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_cc_1' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/synth/design_1_auto_cc_1.v:53]
 WARNING: [Synth 8-6014] Unused sequential element dest_req_ext_ff_reg was removed.  [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:623]
 WARNING: [Synth 8-6014] Unused sequential element dest_req_ext_ff_reg was removed.  [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:623]
 WARNING: [Synth 8-6014] Unused sequential element dest_req_ext_ff_reg was removed.  [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:623]
@@ -158,26 +158,26 @@ WARNING: [Synth 8-7129] Port s_axi_arregion[2] in module axi_clock_converter_v2_
 WARNING: [Synth 8-7129] Port s_axi_arregion[1] in module axi_clock_converter_v2_1_25_axi_clock_converter is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1386.527 ; gain = 91.961
+Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1386.289 ; gain = 92.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1386.527 ; gain = 91.961
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1386.289 ; gain = 92.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1386.527 ; gain = 91.961
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1386.289 ; gain = 92.598
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1386.527 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1386.289 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc] for cell 'inst'
-Parsing XDC File [G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/dont_touch.xdc]
+Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc] for cell 'inst'
+Parsing XDC File [G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/dont_touch.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_auto_cc_1_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_auto_cc_1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/program/Vivado/2022.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_auto_cc_1_propImpl.xdc].
@@ -185,26 +185,26 @@ Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_aut
 INFO: [Project 1-1714] 15 XPM XDC files have been applied to the design.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1418.219 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1410.887 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1420.672 ; gain = 2.453
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1413.191 ; gain = 2.305
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/dont_touch.xdc, line 9).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw /handshake. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_ar /handshake. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_w /handshake. (constraint file  auto generated constraint).
@@ -221,7 +221,7 @@ Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_clock_conv.gen_async_li
 Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_b /handshake/xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/\gen_clock_conv.gen_async_lite_conv.clock_conv_lite_resp_r /handshake/xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'src_state_reg' in module 'axi_clock_converter_v2_1_25_lite_async__xdcDup__1'
 INFO: [Synth 8-802] inferred FSM for state register 'dest_state_reg' in module 'axi_clock_converter_v2_1_25_lite_async__xdcDup__1'
@@ -334,7 +334,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'src_state_reg' using encod
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'dest_state_reg' using encoding 'sequential' in module 'axi_clock_converter_v2_1_25_lite_async__parameterized2'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -370,25 +370,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -406,37 +406,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -461,16 +461,16 @@ Report Cell Usage:
 |7     |FDRE |   280|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1413.191 ; gain = 119.500
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 66 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 1420.672 ; gain = 91.961
-Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1420.672 ; gain = 126.105
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:40 . Memory (MB): peak = 1413.191 ; gain = 92.598
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1413.191 ; gain = 119.500
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1420.672 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1413.191 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1420.672 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1413.191 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -478,10 +478,10 @@ Synth Design complete, checksum: 30a419a0
 INFO: [Common 17-83] Releasing license: Synthesis
 66 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1420.672 ; gain = 126.105
-INFO: [Common 17-1381] The checkpoint 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/design_1_auto_cc_1.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1413.191 ; gain = 119.500
+INFO: [Common 17-1381] The checkpoint 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/design_1_auto_cc_1.dcp' has been generated.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_auto_cc_1, cache-ID = 63e2634af549c109
 INFO: [Coretcl 2-1174] Renamed 21 cell refs.
-INFO: [Common 17-1381] The checkpoint 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/design_1_auto_cc_1.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_auto_cc_1_synth_1/design_1_auto_cc_1.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_auto_cc_1_utilization_synth.rpt -pb design_1_auto_cc_1_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 28 18:26:18 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon May  1 09:39:03 2023...

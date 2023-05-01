@@ -2,16 +2,16 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Fri Apr 28 17:30:15 2023
-# Process ID: 32500
-# Current directory: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32528 G:\projects\lab6\radio_periph_lab\radio_periph_lab\vivado\radio_periph_lab.xpr
-# Log file: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/vivado.log
-# Journal file: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado\vivado.jou
+# Start of session at: Mon May  1 09:12:22 2023
+# Process ID: 18140
+# Current directory: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13360 G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vivado\radio_periph_lab.xpr
+# Log file: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/vivado.log
+# Journal file: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado\vivado.jou
 # Running On: DESKTOP-1K6AF7C, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 34088 MB
 #-----------------------------------------------------------
 start_gui
-open_project G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.xpr
+open_project G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.xpr
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
@@ -41,13 +41,23 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 avail
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/program/Vivado/2022.1/data/ip'.
-open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 1235.965 ; gain = 0.000
+WARNING: [IP_Flow 19-3664] IP 'design_1_simple_fifo_0_0' generated file not found 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_simple_fifo_0_0/design_1_simple_fifo_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_simple_fifo_0_0' generated file not found 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_simple_fifo_0_0/design_1_simple_fifo_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_simple_fifo_0_0' generated file not found 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_simple_fifo_0_0/design_1_simple_fifo_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_simple_fifo_0_0' generated file not found 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_simple_fifo_0_0/design_1_simple_fifo_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_simple_fifo_0_0' generated file not found 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_simple_fifo_0_0/design_1_simple_fifo_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 1658.898 ; gain = 0.000
 update_compile_order -fileset sources_1
-open_bd_design {G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd}
-Reading block design file <G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd>...
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/ip_repo'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv ep.jhu.edu:cw:simple_fifo:1.0 [get_ips  design_1_simple_fifo_0_0] -log ip_upgrade.log
+Reading block design file <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd>...
 Adding component instance block -- xilinx.com:ip:axi_iic:2.1 - axi_iic_0
+Adding component instance block -- xilinx.com:ip:axis_broadcaster:1.1 - axis_broadcaster_0
 Adding component instance block -- jhu.edu:user:full_radio:1.0 - full_radio_0
 Adding component instance block -- jhuapl.edu:user:lowlevel_dac_intfc:1.1 - lowlevel_dac_intfc_0
 Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
@@ -56,251 +66,158 @@ Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
 Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
 Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
 Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
 Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_125M
+Adding component instance block -- ep.jhu.edu:cw:simple_fifo:1.0 - simple_fifo_0
 Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
 Adding component instance block -- xilinx.com:ip:xpm_cdc_gen:1.0 - xpm_cdc_gen_0
-Successfully read diagram <design_1> from block design file <G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd>
-open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1244.523 ; gain = 8.559
-CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
-WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
-CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
-CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
-ipx::edit_ip_in_project -upgrade true -name full_radio_v1_0_project -directory G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/component.xml
-INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project'
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/program/Vivado/2022.1/data/ip'.
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo'.
-INFO: [IP_Flow 19-795] Syncing license key meta-data
-ipx::edit_ip_in_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1499.191 ; gain = 5.016
-update_compile_order -fileset sources_1
-launch_runs synth_1 -jobs 6
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'full_radio_v1_0_S00_AXI_inst/u6_fir1'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'full_radio_v1_0_S00_AXI_inst/u5_fir0'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'full_radio_v1_0_S00_AXI_inst/u8_cmpy'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'full_radio_v1_0_S00_AXI_inst/u7_dds1'...
-WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
-WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
-Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
-g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/src/dds_compiler_0/dds_compiler_0.xci
-
-[Fri Apr 28 17:54:23 2023] Launched synth_1...
-Run output will be captured here: g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project/full_radio_v1_0_project.runs/synth_1/runme.log
-ipx::merge_project_changes files [ipx::current_core]
-WARNING: [IP_Flow 19-5226] Project source file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/component.xml' ignored by IP packager.
-set_property file_type {VHDL 2008} [get_files  g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/hdl/full_radio_v1_0_S00_AXI.vhd]
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
-WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
-Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
-g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/src/dds_compiler_0/dds_compiler_0.xci
-
-[Fri Apr 28 18:00:26 2023] Launched synth_1...
-Run output will be captured here: g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project/full_radio_v1_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
-WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
-Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
-g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/src/dds_compiler_0/dds_compiler_0.xci
-
-[Fri Apr 28 18:03:32 2023] Launched synth_1...
-Run output will be captured here: g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project/full_radio_v1_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
-WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
-Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
-g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/src/dds_compiler_0/dds_compiler_0.xci
-
-[Fri Apr 28 18:05:10 2023] Launched synth_1...
-Run output will be captured here: g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project/full_radio_v1_0_project.runs/synth_1/runme.log
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
-WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
-Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
-g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/src/dds_compiler_0/dds_compiler_0.xci
-
-[Fri Apr 28 18:11:57 2023] Launched synth_1...
-Run output will be captured here: g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.tmp/full_radio_v1_0_project/full_radio_v1_0_project.runs/synth_1/runme.log
-ipx::merge_project_changes files [ipx::current_core]
-WARNING: [IP_Flow 19-5226] Project source file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo/full_radio/component.xml' ignored by IP packager.
-set_property core_revision 7 [ipx::current_core]
-ipx::update_source_project_archive -component [ipx::current_core]
-ipx::create_xgui_files [ipx::current_core]
-ipx::update_checksums [ipx::current_core]
-ipx::check_integrity [ipx::current_core]
-INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
-INFO: [IP_Flow 19-2187] The Product Guide file is missing.
-INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
-ipx::save_core [ipx::current_core]
-ipx::check_integrity -quiet -xrt [ipx::current_core]
-ipx::archive_core {g:\projects\lab6\radio_periph_lab\radio_periph_lab\ip_repo\full_radio\jhu.edu_user_full_radio_1.0.zip} [ipx::current_core]
-set_property core_revision 8 [ipx::current_core]
-ipx::update_source_project_archive -component [ipx::current_core]
-ipx::create_xgui_files [ipx::current_core]
-ipx::update_checksums [ipx::current_core]
-ipx::check_integrity [ipx::current_core]
-INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
-INFO: [IP_Flow 19-2187] The Product Guide file is missing.
-INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
-ipx::save_core [ipx::current_core]
-ipx::check_integrity -quiet -xrt [ipx::current_core]
-ipx::archive_core {g:\projects\lab6\radio_periph_lab\radio_periph_lab\ip_repo\full_radio\jhu.edu_user_full_radio_1.0.zip} [ipx::current_core]
-ipx::move_temp_component_back -component [ipx::current_core]
-close_project -delete
-update_ip_catalog -rebuild -repo_path g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo
-INFO: [IP_Flow 19-725] Reloaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo'
-report_ip_status -name ip_status 
-upgrade_ip -vlnv jhu.edu:user:full_radio:1.0 [get_ips  design_1_full_radio_0_0] -log ip_upgrade.log
-Upgrading 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd'
-INFO: [IP_Flow 19-3422] Upgraded design_1_full_radio_0_0 (full_radio_v1.0 1.0) from revision 6 to revision 8
-Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
-Wrote  : <G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
-INFO: [Coretcl 2-1525] Wrote upgrade log to 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/ip_upgrade.log'.
-export_ip_user_files -of_objects [get_ips design_1_full_radio_0_0] -no_script -sync -force -quiet
-generate_target all [get_files  G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd]
-CRITICAL WARNING: [BD 41-237] Bus Interface property TDATA_NUM_BYTES does not match between /lowlevel_dac_intfc_0/data_in(2) and /full_radio_0/m_axis(4)
+Successfully read diagram <design_1> from block design file <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd>
+Upgrading 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_simple_fifo_0_0 to use current project options
+Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips design_1_simple_fifo_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd]
 WARNING: [BD 41-927] Following properties on pin /lowlevel_dac_intfc_0/clk125 have been updated from connected ip, but BD cell '/lowlevel_dac_intfc_0' does not accept parameter changes, so they may not be synchronized with cell properties:
 	FREQ_HZ = 125000000 
 Please resolve any mismatches by directly setting properties on BD cell </lowlevel_dac_intfc_0> to completely resolve these warnings.
-Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/lowlevel_dac_intfc_0/data_word'(16) to pin: '/full_radio_0/m_axis_tdata'(32) - Only lower order bits will be connected.
-VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/synth/design_1.vhd
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/lowlevel_dac_intfc_0/data_word'(16) to pin: '/full_radio_0/m_axis_tdata'(32) - Only lower order bits will be connected.
-VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/sim/design_1.vhd
-VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
-INFO: [IP_Flow 19-3422] Upgraded dds_compiler_0 (DDS Compiler 6.0) from revision 21 to revision 22
-INFO: [BD 41-1029] Generation completed for the IP Integrator block full_radio_0 .
-INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
-INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc'
-Exporting to file g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
-Generated Hardware Definition File g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
+WARNING: [BD 41-927] Following properties on pin /simple_fifo_0/s00_axi_aclk have been updated from connected ip, but BD cell '/simple_fifo_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 125000000 
+Please resolve any mismatches by directly setting properties on BD cell </simple_fifo_0> to completely resolve these warnings.
+Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block simple_fifo_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc'
+Exporting to file g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
+Generated Hardware Definition File g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
 INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_ooc.xdc'
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
 INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m00_couplers/auto_cc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc'
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
 INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m01_couplers/auto_cc .
-Exporting to file g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
-Generated Hardware Definition File g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/synth/design_1.hwdef
-generate_target: Time (s): cpu = 00:00:51 ; elapsed = 00:00:50 . Memory (MB): peak = 2063.660 ; gain = 403.816
-catch { config_ip_cache -export [get_ips -all design_1_full_radio_0_0] }
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m02_couplers/auto_cc .
+Exporting to file g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/synth/design_1.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin s_axis could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /simple_fifo_0
+generate_target: Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 1761.398 ; gain = 102.500
+catch { config_ip_cache -export [get_ips -all design_1_simple_fifo_0_0] }
 catch { config_ip_cache -export [get_ips -all design_1_system_ila_0_0] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_system_ila_0_0, cache-ID = 2c72e35a86294a4a; cache size = 26.800 MB.
-config_ip_cache: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2063.660 ; gain = 0.000
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_system_ila_0_0, cache-ID = 2c72e35a86294a4a; cache size = 24.274 MB.
+config_ip_cache: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1786.414 ; gain = 25.016
 catch { [ delete_ip_run [get_ips -all design_1_system_ila_0_0] ] }
 catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 2e391066b4f9282e; cache size = 26.800 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 2e391066b4f9282e; cache size = 24.274 MB.
 catch { config_ip_cache -export [get_ips -all design_1_auto_cc_0] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_0, cache-ID = 6c81437af7dfecb6; cache size = 26.801 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_0, cache-ID = 6c81437af7dfecb6; cache size = 24.274 MB.
 catch { config_ip_cache -export [get_ips -all design_1_auto_cc_1] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_1, cache-ID = 63e2634af549c109; cache size = 26.801 MB.
-export_ip_user_files -of_objects [get_files G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd]
-launch_runs design_1_processing_system7_0_0_synth_1 design_1_full_radio_0_0_synth_1 -jobs 6
-[Fri Apr 28 18:15:20 2023] Launched design_1_processing_system7_0_0_synth_1, design_1_full_radio_0_0_synth_1...
-Run output will be captured here:
-design_1_processing_system7_0_0_synth_1: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_processing_system7_0_0_synth_1/runme.log
-design_1_full_radio_0_0_synth_1: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_full_radio_0_0_synth_1/runme.log
-export_simulation -of_objects [get_files G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd] -directory G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.ip_user_files/sim_scripts -ip_user_files_dir G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.ip_user_files -ipstatic_source_dir G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.cache/compile_simlib/modelsim} {questa=G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.cache/compile_simlib/questa} {riviera=G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.cache/compile_simlib/riviera} {activehdl=G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
-startgroup
-set_property -dict [list CONFIG.channels {2}] [get_bd_cells lowlevel_dac_intfc_0]
-endgroup
-save_bd_design
-Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
-Wrote  : <G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_1, cache-ID = 63e2634af549c109; cache size = 24.274 MB.
+catch { config_ip_cache -export [get_ips -all design_1_auto_cc_2] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_2, cache-ID = 6c81437af7dfecb6; cache size = 24.274 MB.
+export_ip_user_files -of_objects [get_files G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs design_1_simple_fifo_0_0_synth_1 -jobs 6
+[Mon May  1 09:14:24 2023] Launched design_1_simple_fifo_0_0_synth_1...
+Run output will be captured here: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_simple_fifo_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd] -directory G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.ip_user_files/sim_scripts -ip_user_files_dir G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.ip_user_files -ipstatic_source_dir G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/compile_simlib/modelsim} {questa=G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/compile_simlib/questa} {riviera=G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/compile_simlib/riviera} {activehdl=G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run design_1_simple_fifo_0_0_synth_1
 reset_run synth_1
-INFO: [Project 1-1160] Copying file G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/synth_1/design_1_wrapper.dcp to G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 6
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon May  1 09:17:03 2023] Launched design_1_simple_fifo_0_0_synth_1...
+Run output will be captured here: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_simple_fifo_0_0_synth_1/runme.log
+[Mon May  1 09:17:03 2023] Launched synth_1...
+Run output will be captured here: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/synth_1/runme.log
+reset_run design_1_simple_fifo_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon May  1 09:23:56 2023] Launched design_1_simple_fifo_0_0_synth_1...
+Run output will be captured here: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_simple_fifo_0_0_synth_1/runme.log
+[Mon May  1 09:23:56 2023] Launched synth_1...
+Run output will be captured here: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/synth_1/runme.log
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/ip_repo'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv ep.jhu.edu:cw:simple_fifo:1.0 [get_ips  design_1_simple_fifo_0_0] -log ip_upgrade.log
+Upgrading 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd'
 WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/synth_1
+1. PID not specified
 
-reset_run design_1_lowlevel_dac_intfc_0_0_synth_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_lowlevel_dac_intfc_0_0_synth_1
-
-launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [IP_Flow 19-3420] Updated design_1_simple_fifo_0_0 to use current project options
+Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips design_1_simple_fifo_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd]
 WARNING: [BD 41-927] Following properties on pin /lowlevel_dac_intfc_0/clk125 have been updated from connected ip, but BD cell '/lowlevel_dac_intfc_0' does not accept parameter changes, so they may not be synchronized with cell properties:
 	FREQ_HZ = 125000000 
 Please resolve any mismatches by directly setting properties on BD cell </lowlevel_dac_intfc_0> to completely resolve these warnings.
-Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
-VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/synth/design_1.vhd
-VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/sim/design_1.vhd
-VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
-INFO: [BD 41-1029] Generation completed for the IP Integrator block lowlevel_dac_intfc_0 .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc'
-Exporting to file g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
-Generated Hardware Definition File g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
+WARNING: [BD 41-927] Following properties on pin /simple_fifo_0/s00_axi_aclk have been updated from connected ip, but BD cell '/simple_fifo_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 125000000 
+Please resolve any mismatches by directly setting properties on BD cell </simple_fifo_0> to completely resolve these warnings.
+Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block simple_fifo_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc'
+Exporting to file g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
+Generated Hardware Definition File g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
 INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_0/design_1_auto_cc_0_ooc.xdc'
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
 INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m00_couplers/auto_cc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_1/design_1_auto_cc_1_ooc.xdc'
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
 INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m01_couplers/auto_cc .
-Exporting to file g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
-Generated Hardware Definition File g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/synth/design_1.hwdef
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_0, cache-ID = 6c81437af7dfecb6; cache size = 26.801 MB.
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_1, cache-ID = 63e2634af549c109; cache size = 26.801 MB.
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 2e391066b4f9282e; cache size = 26.801 MB.
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_system_ila_0_0, cache-ID = 2c72e35a86294a4a; cache size = 34.584 MB.
-config_ip_cache: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2125.973 ; gain = 0.000
-[Fri Apr 28 18:17:11 2023] Launched design_1_lowlevel_dac_intfc_0_0_synth_1, synth_1...
-Run output will be captured here:
-design_1_lowlevel_dac_intfc_0_0_synth_1: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_lowlevel_dac_intfc_0_0_synth_1/runme.log
-synth_1: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/synth_1/runme.log
-[Fri Apr 28 18:17:11 2023] Launched impl_1...
-Run output will be captured here: G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/impl_1/runme.log
-launch_runs: Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 2125.973 ; gain = 20.883
-open_hw_manager
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_auto_cc_2/design_1_auto_cc_2_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m02_couplers/auto_cc .
+Exporting to file g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/synth/design_1.hwdef
+WARNING: [BD 41-2265] Clock pin for protocol instance pin s_axis could not be determined. Make sure that ASSOCIATED_BUSIF and ASSOCIATED_RESET properties are set or propagated on clock pins of block /simple_fifo_0
+generate_target: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1834.434 ; gain = 6.270
+catch { config_ip_cache -export [get_ips -all design_1_simple_fifo_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_system_ila_0_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_system_ila_0_0, cache-ID = 2c72e35a86294a4a; cache size = 24.274 MB.
+config_ip_cache: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1834.434 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 2e391066b4f9282e; cache size = 24.274 MB.
+catch { config_ip_cache -export [get_ips -all design_1_auto_cc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_0, cache-ID = 6c81437af7dfecb6; cache size = 24.274 MB.
+catch { config_ip_cache -export [get_ips -all design_1_auto_cc_1] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_1, cache-ID = 63e2634af549c109; cache size = 24.274 MB.
+catch { config_ip_cache -export [get_ips -all design_1_auto_cc_2] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_cc_2, cache-ID = 6c81437af7dfecb6; cache size = 24.274 MB.
+export_ip_user_files -of_objects [get_files G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs design_1_simple_fifo_0_0_synth_1 -jobs 6
+[Mon May  1 09:24:36 2023] Launched design_1_simple_fifo_0_0_synth_1...
+Run output will be captured here: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_simple_fifo_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd] -directory G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.ip_user_files/sim_scripts -ip_user_files_dir G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.ip_user_files -ipstatic_source_dir G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/compile_simlib/modelsim} {questa=G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/compile_simlib/questa} {riviera=G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/compile_simlib/riviera} {activehdl=G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon May  1 09:28:44 2023] Launched synth_1...
+Run output will be captured here: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/synth_1/runme.log
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 28 18:22:02 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon May  1 09:35:26 2023...

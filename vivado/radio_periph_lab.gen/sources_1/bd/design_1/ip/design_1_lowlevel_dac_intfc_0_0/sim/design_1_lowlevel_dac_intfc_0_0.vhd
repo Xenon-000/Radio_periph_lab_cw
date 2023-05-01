@@ -57,7 +57,7 @@ ENTITY design_1_lowlevel_dac_intfc_0_0 IS
   PORT (
     resetn : IN STD_LOGIC;
     clk125 : IN STD_LOGIC;
-    data_word : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+    data_word : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     sdata : OUT STD_LOGIC;
     lrck : OUT STD_LOGIC;
     bclk : OUT STD_LOGIC;
@@ -77,7 +77,7 @@ ARCHITECTURE design_1_lowlevel_dac_intfc_0_0_arch OF design_1_lowlevel_dac_intfc
     PORT (
       resetn : IN STD_LOGIC;
       clk125 : IN STD_LOGIC;
-      data_word : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+      data_word : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
       sdata : OUT STD_LOGIC;
       lrck : OUT STD_LOGIC;
       bclk : OUT STD_LOGIC;
@@ -90,7 +90,7 @@ ARCHITECTURE design_1_lowlevel_dac_intfc_0_0_arch OF design_1_lowlevel_dac_intfc
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER OF clk125: SIGNAL IS "XIL_INTERFACENAME clk125, ASSOCIATED_RESET resetn, ASSOCIATED_BUSIF data_in, FREQ_TOLERANCE_HZ -1, FREQ_HZ 125000000, PHASE 0.0, CLK_DOMAIN design_1_clk125, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF clk125: SIGNAL IS "xilinx.com:signal:clock:1.0 clk125 CLK";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF data_word: SIGNAL IS "XIL_INTERFACENAME data_in, TDATA_NUM_BYTES 2, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 125000000, PHASE 0.0, CLK_DOMAIN design_1_clk125, LAYERED_METADATA undef, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF data_word: SIGNAL IS "XIL_INTERFACENAME data_in, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 125000000, PHASE 0.0, CLK_DOMAIN design_1_clk125, LAYERED_METADATA undef, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF data_word: SIGNAL IS "xilinx.com:interface:axis:1.0 data_in TDATA";
   ATTRIBUTE X_INTERFACE_INFO OF latched_data: SIGNAL IS "xilinx.com:interface:axis:1.0 data_in TREADY";
   ATTRIBUTE X_INTERFACE_PARAMETER OF resetn: SIGNAL IS "XIL_INTERFACENAME resetn, POLARITY ACTIVE_LOW, INSERT_VIP 0";
@@ -99,7 +99,7 @@ ARCHITECTURE design_1_lowlevel_dac_intfc_0_0_arch OF design_1_lowlevel_dac_intfc
 BEGIN
   U0 : lowlevel_dac_intfc
     GENERIC MAP (
-      channels => 1
+      channels => 2
     )
     PORT MAP (
       resetn => resetn,

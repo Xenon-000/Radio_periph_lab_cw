@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon May  1 04:18:44 2023
+# Process ID: 12116
+# Current directory: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15992 G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vivado\radio_periph_lab.xpr
+# Log file: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/vivado.log
+# Journal file: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado\vivado.jou
+# Running On: DESKTOP-1K6AF7C, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 34088 MB
+#-----------------------------------------------------------
+start_gui
+open_project G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.xpr
+update_compile_order -fileset sources_1

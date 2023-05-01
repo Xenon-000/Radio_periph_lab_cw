@@ -1,0 +1,133 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon May  1 04:29:24 2023
+# Process ID: 29276
+# Current directory: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12492 G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vivado\radio_periph_lab.xpr
+# Log file: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/vivado.log
+# Journal file: G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado\vivado.jou
+# Running On: DESKTOP-1K6AF7C, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 34088 MB
+#-----------------------------------------------------------
+start_gui
+open_project G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/program/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/program/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:12 . Memory (MB): peak = 1681.277 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:axi_iic:2.1 - axi_iic_0
+Adding component instance block -- jhu.edu:user:full_radio:1.0 - full_radio_0
+Adding component instance block -- jhuapl.edu:user:lowlevel_dac_intfc:1.1 - lowlevel_dac_intfc_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_125M
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding component instance block -- xilinx.com:ip:xpm_cdc_gen:1.0 - xpm_cdc_gen_0
+Successfully read diagram <design_1> from block design file <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd>
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_broadcaster:1.1 axis_broadcaster_0
+endgroup
+set_property location {5 1470 626} [get_bd_cells axis_broadcaster_0]
+set_property location {5 1859 447} [get_bd_cells axis_broadcaster_0]
+startgroup
+create_bd_cell -type ip -vlnv ep.jhu.edu:cw:simple_fifo:1.0 simple_fifo_0
+endgroup
+set_property location {5 1618 717} [get_bd_cells simple_fifo_0]
+set_property location {5.5 2163 500} [get_bd_cells simple_fifo_0]
+set_property location {6 2170 465} [get_bd_cells simple_fifo_0]
+set_property location {6.5 2217 510} [get_bd_cells simple_fifo_0]
+set_property location {6 2215 529} [get_bd_cells simple_fifo_0]
+delete_bd_objs [get_bd_intf_nets dds_compiler_0_M_AXIS_DATA]
+connect_bd_net [get_bd_ports clk125] [get_bd_pins axis_broadcaster_0/aclk]
+connect_bd_net [get_bd_ports clk125] [get_bd_pins simple_fifo_0/s00_axi_aclk]
+startgroup
+set_property -dict [list CONFIG.NUM_MI {3}] [get_bd_cells ps7_0_axi_periph]
+endgroup
+connect_bd_net [get_bd_ports clk125] [get_bd_pins ps7_0_axi_periph/M02_ACLK]
+connect_bd_net [get_bd_pins ps7_0_axi_periph/M02_ARESETN] [get_bd_pins xpm_cdc_gen_0/dest_rst_out]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins ps7_0_axi_periph/M02_AXI] [get_bd_intf_pins simple_fifo_0/s00_axi]
+connect_bd_intf_net [get_bd_intf_pins simple_fifo_0/s_axis] [get_bd_intf_pins axis_broadcaster_0/M01_AXIS]
+connect_bd_net [get_bd_pins simple_fifo_0/s00_axi_aresetn] [get_bd_pins xpm_cdc_gen_0/dest_rst_out]
+connect_bd_intf_net [get_bd_intf_pins full_radio_0/m_axis] [get_bd_intf_pins axis_broadcaster_0/S_AXIS]
+connect_bd_net [get_bd_pins axis_broadcaster_0/aresetn] [get_bd_pins xpm_cdc_gen_0/dest_rst_out]
+connect_bd_intf_net [get_bd_intf_pins axis_broadcaster_0/M00_AXIS] [get_bd_intf_pins system_ila_0/SLOT_0_AXIS]
+connect_bd_intf_net [get_bd_intf_pins axis_broadcaster_0/M00_AXIS] [get_bd_intf_pins lowlevel_dac_intfc_0/data_in]
+save_bd_design
+Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+write_bd_tcl -force G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/tcl/design_1.tcl
+INFO: [BD 5-148] Tcl file written out <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/tcl/design_1.tcl>.
+
+WARNING: [BD 5-339] The block design <design_1> has not been validated, therefore, a block design created using this Tcl file
+<G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/tcl/design_1.tcl> may result in errors during validation.
+assign_bd_address
+Slave segment '/simple_fifo_0/s00_axi/reg0' is being assigned into address space '/processing_system7_0/Data' at <0x4000_0000 [ 4K ]>.
+validate_bd_design
+CRITICAL WARNING: [BD 41-237] Bus Interface property TDATA_NUM_BYTES does not match between /lowlevel_dac_intfc_0/data_in(2) and /axis_broadcaster_0/M00_AXIS(4)
+WARNING: [BD 41-927] Following properties on pin /lowlevel_dac_intfc_0/clk125 have been updated from connected ip, but BD cell '/lowlevel_dac_intfc_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 125000000 
+Please resolve any mismatches by directly setting properties on BD cell </lowlevel_dac_intfc_0> to completely resolve these warnings.
+WARNING: [BD 41-927] Following properties on pin /simple_fifo_0/s00_axi_aclk have been updated from connected ip, but BD cell '/simple_fifo_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 125000000 
+Please resolve any mismatches by directly setting properties on BD cell </simple_fifo_0> to completely resolve these warnings.
+startgroup
+set_property -dict [list CONFIG.channels {2}] [get_bd_cells lowlevel_dac_intfc_0]
+endgroup
+validate_bd_design
+WARNING: [BD 41-927] Following properties on pin /lowlevel_dac_intfc_0/clk125 have been updated from connected ip, but BD cell '/lowlevel_dac_intfc_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 125000000 
+Please resolve any mismatches by directly setting properties on BD cell </lowlevel_dac_intfc_0> to completely resolve these warnings.
+WARNING: [BD 41-927] Following properties on pin /simple_fifo_0/s00_axi_aclk have been updated from connected ip, but BD cell '/simple_fifo_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 125000000 
+Please resolve any mismatches by directly setting properties on BD cell </simple_fifo_0> to completely resolve these warnings.
+validate_bd_design -force
+WARNING: [BD 41-927] Following properties on pin /lowlevel_dac_intfc_0/clk125 have been updated from connected ip, but BD cell '/lowlevel_dac_intfc_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 125000000 
+Please resolve any mismatches by directly setting properties on BD cell </lowlevel_dac_intfc_0> to completely resolve these warnings.
+WARNING: [BD 41-927] Following properties on pin /simple_fifo_0/s00_axi_aclk have been updated from connected ip, but BD cell '/simple_fifo_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 125000000 
+Please resolve any mismatches by directly setting properties on BD cell </simple_fifo_0> to completely resolve these warnings.
+write_bd_tcl -force G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/tcl/design_1.tcl
+INFO: [BD 5-148] Tcl file written out <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/tcl/design_1.tcl>.
+
+save_bd_design
+Wrote  : <G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vivado\radio_periph_lab.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May  1 04:39:57 2023...

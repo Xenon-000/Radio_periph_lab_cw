@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="lab7" location="G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vitis_7/lab7" platform="G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vitis_7/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="lab7_system" sysConfig="design_1_wrapper" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="ad9d5533060a4a65d533fffbfbc2ff3d">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1276976211" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.2074238664" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="lwip_udp_perf_client" hasBspSettings="true"/>
+</sdkproject:SdkProject>

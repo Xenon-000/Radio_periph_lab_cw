@@ -1,0 +1,50 @@
+18:22:48 DEBUG : Logs will be stored at 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vitis/IDE.log'.
+18:22:49 INFO  : Registering command handlers for Vitis TCF services
+18:22:50 INFO  : Platform repository initialization has completed.
+18:22:52 INFO  : Result from executing command 'getProjects': hwplat
+18:22:52 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+18:22:52 INFO  : Result from executing command 'reportPlatform': {hwplat={standalone_ps7_cortexa9_0={Os=standalone, DomainName=standalone_ps7_cortexa9_0, CpuType=cortex-a9, CpuInstance=ps7_cortexa9_0}}}
+18:22:52 INFO  : Result from executing command 'reportPlatform': {hwplat={standalone_ps7_cortexa9_0={Os=standalone, DomainName=standalone_ps7_cortexa9_0, CpuType=cortex-a9, CpuInstance=ps7_cortexa9_0}}}
+18:22:52 INFO  : Result from executing command 'reportPlatform': {hwplat={standalone_ps7_cortexa9_0={Os=standalone, DomainName=standalone_ps7_cortexa9_0, CpuType=cortex-a9, CpuInstance=ps7_cortexa9_0}}}
+18:23:01 INFO  : plnx-install-location is set to ''
+18:23:03 INFO  : Successfully done query RDI_DATADIR 
+18:23:26 INFO  : Checking for BSP changes to sync application flags for project 'my_app'...
+18:23:29 INFO  : Checking for BSP changes to sync application flags for project 'my_app'...
+18:23:36 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:186) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:140) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at java.io.FilterInputStream.read(FilterInputStream.java:107) ~[?:?]
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:186) ~[org.eclipse.tcf.core_1.7.0.202204140305.jar:?]
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:85) ~[org.eclipse.tcf.core_1.7.0.202204140305.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:329) ~[org.eclipse.tcf.core_1.7.0.202204140305.jar:?]
+22:37:06 DEBUG : Logs will be stored at 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vitis/IDE.log'.
+22:37:07 INFO  : Registering command handlers for Vitis TCF services
+22:37:08 INFO  : Platform repository initialization has completed.
+22:37:09 INFO  : Result from executing command 'getProjects': hwplat
+22:37:09 INFO  : Result from executing command 'getPlatforms': hwplat|G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vitis/hwplat/export/hwplat/hwplat.xpfm;xilinx_zcu102_base_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+22:37:10 INFO  : Result from executing command 'reportPlatform': {hwplat={standalone_ps7_cortexa9_0={Os=standalone, DomainName=standalone_ps7_cortexa9_0, CpuType=cortex-a9, CpuInstance=ps7_cortexa9_0}}}
+22:37:10 INFO  : Result from executing command 'reportPlatform': {hwplat={standalone_ps7_cortexa9_0={Os=standalone, DomainName=standalone_ps7_cortexa9_0, CpuType=cortex-a9, CpuInstance=ps7_cortexa9_0}}}
+22:37:10 INFO  : Result from executing command 'reportPlatform': {hwplat={standalone_ps7_cortexa9_0={Os=standalone, DomainName=standalone_ps7_cortexa9_0, CpuType=cortex-a9, CpuInstance=ps7_cortexa9_0}}}
+22:37:10 ERROR : Error from executing command 'createAppFromPlatform': A project with given name already exists in the workspace. Please choose a differenet name. 
+22:37:10 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:186) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:140) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at java.io.FilterInputStream.read(FilterInputStream.java:107) ~[?:?]
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:186) ~[org.eclipse.tcf.core_1.7.0.202204140305.jar:?]
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:85) ~[org.eclipse.tcf.core_1.7.0.202204140305.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:329) ~[org.eclipse.tcf.core_1.7.0.202204140305.jar:?]
+00:15:41 DEBUG : Logs will be stored at 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vitis/IDE.log'.
+00:15:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vitis\temp_xsdb_launch_script.tcl
+00:15:44 INFO  : Platform repository initialization has completed.
+00:15:44 INFO  : Registering command handlers for Vitis TCF services
+00:15:44 INFO  : XSCT server has started successfully.
+00:15:46 INFO  : plnx-install-location is set to ''
+00:15:46 INFO  : Successfully done setting XSCT server connection channel  
+00:15:46 INFO  : Successfully done query RDI_DATADIR 
+00:15:47 INFO  : Successfully done setting workspace for the tool. 

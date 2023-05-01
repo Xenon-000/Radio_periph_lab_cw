@@ -39,7 +39,7 @@
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>TDATA_NUM_BYTES</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.DATA_IN.TDATA_NUM_BYTES">2</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.DATA_IN.TDATA_NUM_BYTES">4</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -276,11 +276,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 28 23:23:59 UTC 2023</spirit:value>
+            <spirit:value>Mon May 01 14:36:22 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:38b9b9d3</spirit:value>
+            <spirit:value>9:4338cf2a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -291,7 +291,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:38b9b9d3</spirit:value>
+            <spirit:value>9:4338cf2a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -307,11 +307,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 28 23:23:59 UTC 2023</spirit:value>
+            <spirit:value>Mon May 01 14:36:22 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:38b9b9d3</spirit:value>
+            <spirit:value>9:4338cf2a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -326,11 +326,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 28 23:23:59 UTC 2023</spirit:value>
+            <spirit:value>Mon May 01 14:36:22 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:4ca345b3</spirit:value>
+            <spirit:value>9:1affefbf</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -346,11 +346,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 28 23:23:59 UTC 2023</spirit:value>
+            <spirit:value>Mon May 01 14:36:22 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:4ca345b3</spirit:value>
+            <spirit:value>9:1affefbf</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -364,11 +364,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 28 23:25:24 UTC 2023</spirit:value>
+            <spirit:value>Mon May 01 14:38:42 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:38b9b9d3</spirit:value>
+            <spirit:value>9:4338cf2a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -405,7 +405,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.channels&apos;)) * 16) - 1)">15</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.channels&apos;)) * 16) - 1)">31</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -503,7 +503,7 @@
       <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
         <spirit:name>channels</spirit:name>
         <spirit:displayName>Channels</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.channels">1</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.channels">2</spirit:value>
       </spirit:modelParameter>
     </spirit:modelParameters>
   </spirit:model>
@@ -604,7 +604,7 @@
     <spirit:parameter>
       <spirit:name>channels</spirit:name>
       <spirit:displayName>Channels</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.channels" spirit:choiceRef="choice_list_8aad6ae4">1</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.channels" spirit:choiceRef="choice_list_8aad6ae4">2</spirit:value>
     </spirit:parameter>
   </spirit:parameters>
   <spirit:vendorExtensions>

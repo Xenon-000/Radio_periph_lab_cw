@@ -23,14 +23,14 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DATA_IN.INSERT_VIP">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DATA_IN.LAYERED_METADATA">undef</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DATA_IN.PHASE">0.0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DATA_IN.TDATA_NUM_BYTES">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DATA_IN.TDATA_NUM_BYTES">4</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DATA_IN.TDEST_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DATA_IN.TID_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.DATA_IN.TUSER_WIDTH">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.RESETN.INSERT_VIP">0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.channels">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.channels">2</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.Component_Name">design_1_lowlevel_dac_intfc_0_0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.channels">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.channels">2</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.ARCHITECTURE">zynq</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.BASE_BOARD_PART"/>
         <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.BOARD_CONNECTIONS"/>
@@ -81,7 +81,7 @@
                 &quot;ports&quot;: {
                   &quot;resetn&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
                   &quot;clk125&quot;: [ { &quot;direction&quot;: &quot;in&quot; } ],
-                  &quot;data_word&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;15&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;data_word&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;31&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;sdata&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
                   &quot;lrck&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
                   &quot;bclk&quot;: [ { &quot;direction&quot;: &quot;out&quot; } ],
@@ -95,7 +95,7 @@
                     &quot;abstraction_type&quot;: &quot;xilinx.com:interface:axis_rtl:1.0&quot;,
                     &quot;mode&quot;: &quot;slave&quot;,
                     &quot;parameters&quot;: {
-                      &quot;TDATA_NUM_BYTES&quot;: [ { &quot;value&quot;: &quot;2&quot;, &quot;value_src&quot;: &quot;auto&quot;, &quot;value_permission&quot;: &quot;bd_and_user&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;TDATA_NUM_BYTES&quot;: [ { &quot;value&quot;: &quot;4&quot;, &quot;value_src&quot;: &quot;auto&quot;, &quot;value_permission&quot;: &quot;bd_and_user&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
                       &quot;TDEST_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd_and_user&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
                       &quot;TID_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd_and_user&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
                       &quot;TUSER_WIDTH&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd_and_user&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],

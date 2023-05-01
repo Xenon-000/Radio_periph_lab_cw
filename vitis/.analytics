@@ -1,0 +1,10 @@
+timestamp=[2023-04-30 18:22:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.711, duration_ms=711, data={}
+timestamp=[2023-04-30 18:23:09], mode=APP_CREATION, duration=0:00:08.193, duration_ms=8193, data={name=my_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=hwplat, application_type=application}
+timestamp=[2023-04-30 18:23:26], mode=PLATFORM_GENERATION, duration=0:00:16.467, duration_ms=16467, data={name=hwplat}
+timestamp=[2023-04-30 18:23:27], mode=BUILD, duration=0:00:01.046, duration_ms=1046, data={name=my_app, configuration=Debug, clean_build=false}
+timestamp=[2023-04-30 18:23:29], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=my_app, configuration=Debug, clean_build=false}
+timestamp=[2023-04-30 18:23:35], mode=BUILD, duration=0:00:05.966, duration_ms=5966, data={name=my_app_system, configuration=Debug, clean_build=false}
+timestamp=[2023-04-30 22:37:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.523, duration_ms=523, data={}
+timestamp=[2023-05-01 00:15:43], mode=WORKBENCH_START, duration=0:00:07.162, duration_ms=7162, data={}
+timestamp=[2023-05-01 00:15:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.326, duration_ms=326, data={editors_count=0, platform_editors_count=0, projects_count=3, platform_projects_count=1, active_platform_editor=false, projects=hwplat,my_app,my_app_system}
+timestamp=[2023-05-01 00:15:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.283, duration_ms=283, data={}

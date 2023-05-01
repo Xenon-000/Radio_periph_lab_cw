@@ -1,0 +1,36 @@
+14:40:49 DEBUG : Logs will be stored at 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/IDE.log'.
+14:40:54 INFO  : Launching XSCT server: xsct.bat -n  -interactive G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\temp_xsdb_launch_script.tcl
+14:40:54 INFO  : Registering command handlers for Vitis TCF services
+14:40:55 INFO  : Platform repository initialization has completed.
+14:40:58 INFO  : XSCT server has started successfully.
+14:41:01 INFO  : Successfully done setting XSCT server connection channel  
+14:41:01 INFO  : plnx-install-location is set to ''
+14:41:01 INFO  : Successfully done query RDI_DATADIR 
+14:41:01 INFO  : Successfully done setting workspace for the tool. 
+14:46:48 DEBUG : Logs will be stored at 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/IDE.log'.
+14:46:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\temp_xsdb_launch_script.tcl
+14:46:50 INFO  : Registering command handlers for Vitis TCF services
+14:46:50 INFO  : Platform repository initialization has completed.
+14:46:51 INFO  : XSCT server has started successfully.
+14:46:51 INFO  : plnx-install-location is set to ''
+14:46:51 INFO  : Successfully done setting XSCT server connection channel  
+14:46:51 INFO  : Successfully done query RDI_DATADIR 
+14:46:51 INFO  : Successfully done setting workspace for the tool. 
+14:58:16 DEBUG : Logs will be stored at 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/IDE.log'.
+14:58:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\temp_xsdb_launch_script.tcl
+14:58:18 INFO  : Registering command handlers for Vitis TCF services
+14:58:19 INFO  : Platform repository initialization has completed.
+14:58:21 INFO  : XSCT server has started successfully.
+14:58:21 INFO  : Successfully done setting XSCT server connection channel  
+14:58:21 INFO  : plnx-install-location is set to ''
+14:58:21 INFO  : Successfully done query RDI_DATADIR 
+14:58:21 INFO  : Successfully done setting workspace for the tool. 
+16:21:21 DEBUG : Logs will be stored at 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/IDE.log'.
+16:21:22 INFO  : Launching XSCT server: xsct.bat -n  -interactive G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\temp_xsdb_launch_script.tcl
+16:21:23 INFO  : Registering command handlers for Vitis TCF services
+16:21:23 INFO  : Platform repository initialization has completed.
+16:21:25 INFO  : XSCT server has started successfully.
+16:21:28 INFO  : Successfully done setting XSCT server connection channel  
+16:21:28 INFO  : plnx-install-location is set to ''
+16:21:28 INFO  : Successfully done query RDI_DATADIR 
+16:21:28 INFO  : Successfully done setting workspace for the tool. 

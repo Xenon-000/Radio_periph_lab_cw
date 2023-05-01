@@ -1,10 +1,10 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
--- Date        : Fri Apr 28 18:25:24 2023
+-- Date        : Mon May  1 09:38:42 2023
 -- Host        : DESKTOP-1K6AF7C running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_lowlevel_dac_intfc_0_0/design_1_lowlevel_dac_intfc_0_0_sim_netlist.vhdl
+--               g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_lowlevel_dac_intfc_0_0/design_1_lowlevel_dac_intfc_0_0_sim_netlist.vhdl
 -- Design      : design_1_lowlevel_dac_intfc_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -359,7 +359,7 @@ entity design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc is
     latched_data : out STD_LOGIC;
     clk125 : in STD_LOGIC;
     resetn : in STD_LOGIC;
-    data_word : in STD_LOGIC_VECTOR ( 15 downto 0 )
+    data_word : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc : entity is "lowlevel_dac_intfc";
@@ -419,36 +419,36 @@ architecture STRUCTURE of design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc is
   attribute SOFT_HLUTNM of \bitcount[3]_i_1\ : label is "soft_lutpair5";
   attribute SOFT_HLUTNM of \bitcount[4]_i_1\ : label is "soft_lutpair5";
   attribute SOFT_HLUTNM of lrck_i_2 : label is "soft_lutpair21";
-  attribute SOFT_HLUTNM of \shiftreg[10]_i_1\ : label is "soft_lutpair15";
-  attribute SOFT_HLUTNM of \shiftreg[11]_i_1\ : label is "soft_lutpair16";
-  attribute SOFT_HLUTNM of \shiftreg[12]_i_1\ : label is "soft_lutpair17";
-  attribute SOFT_HLUTNM of \shiftreg[13]_i_1\ : label is "soft_lutpair18";
-  attribute SOFT_HLUTNM of \shiftreg[14]_i_1\ : label is "soft_lutpair19";
-  attribute SOFT_HLUTNM of \shiftreg[15]_i_1\ : label is "soft_lutpair20";
-  attribute SOFT_HLUTNM of \shiftreg[17]_i_1\ : label is "soft_lutpair6";
-  attribute SOFT_HLUTNM of \shiftreg[18]_i_1\ : label is "soft_lutpair7";
-  attribute SOFT_HLUTNM of \shiftreg[19]_i_1\ : label is "soft_lutpair8";
+  attribute SOFT_HLUTNM of \shiftreg[10]_i_1\ : label is "soft_lutpair10";
+  attribute SOFT_HLUTNM of \shiftreg[11]_i_1\ : label is "soft_lutpair11";
+  attribute SOFT_HLUTNM of \shiftreg[12]_i_1\ : label is "soft_lutpair11";
+  attribute SOFT_HLUTNM of \shiftreg[13]_i_1\ : label is "soft_lutpair12";
+  attribute SOFT_HLUTNM of \shiftreg[14]_i_1\ : label is "soft_lutpair12";
+  attribute SOFT_HLUTNM of \shiftreg[15]_i_1\ : label is "soft_lutpair13";
+  attribute SOFT_HLUTNM of \shiftreg[16]_i_1\ : label is "soft_lutpair13";
+  attribute SOFT_HLUTNM of \shiftreg[17]_i_1\ : label is "soft_lutpair14";
+  attribute SOFT_HLUTNM of \shiftreg[18]_i_1\ : label is "soft_lutpair14";
+  attribute SOFT_HLUTNM of \shiftreg[19]_i_1\ : label is "soft_lutpair15";
   attribute SOFT_HLUTNM of \shiftreg[1]_i_1\ : label is "soft_lutpair6";
-  attribute SOFT_HLUTNM of \shiftreg[20]_i_1\ : label is "soft_lutpair9";
-  attribute SOFT_HLUTNM of \shiftreg[21]_i_1\ : label is "soft_lutpair10";
-  attribute SOFT_HLUTNM of \shiftreg[22]_i_1\ : label is "soft_lutpair11";
-  attribute SOFT_HLUTNM of \shiftreg[23]_i_1\ : label is "soft_lutpair12";
-  attribute SOFT_HLUTNM of \shiftreg[24]_i_1\ : label is "soft_lutpair13";
-  attribute SOFT_HLUTNM of \shiftreg[25]_i_1\ : label is "soft_lutpair14";
-  attribute SOFT_HLUTNM of \shiftreg[26]_i_1\ : label is "soft_lutpair15";
-  attribute SOFT_HLUTNM of \shiftreg[27]_i_1\ : label is "soft_lutpair16";
-  attribute SOFT_HLUTNM of \shiftreg[28]_i_1\ : label is "soft_lutpair17";
-  attribute SOFT_HLUTNM of \shiftreg[29]_i_1\ : label is "soft_lutpair18";
-  attribute SOFT_HLUTNM of \shiftreg[2]_i_1\ : label is "soft_lutpair7";
-  attribute SOFT_HLUTNM of \shiftreg[30]_i_1\ : label is "soft_lutpair19";
-  attribute SOFT_HLUTNM of \shiftreg[31]_i_3\ : label is "soft_lutpair20";
-  attribute SOFT_HLUTNM of \shiftreg[3]_i_1\ : label is "soft_lutpair8";
-  attribute SOFT_HLUTNM of \shiftreg[4]_i_1\ : label is "soft_lutpair9";
-  attribute SOFT_HLUTNM of \shiftreg[5]_i_1\ : label is "soft_lutpair10";
-  attribute SOFT_HLUTNM of \shiftreg[6]_i_1\ : label is "soft_lutpair11";
-  attribute SOFT_HLUTNM of \shiftreg[7]_i_1\ : label is "soft_lutpair12";
-  attribute SOFT_HLUTNM of \shiftreg[8]_i_1\ : label is "soft_lutpair13";
-  attribute SOFT_HLUTNM of \shiftreg[9]_i_1\ : label is "soft_lutpair14";
+  attribute SOFT_HLUTNM of \shiftreg[20]_i_1\ : label is "soft_lutpair15";
+  attribute SOFT_HLUTNM of \shiftreg[21]_i_1\ : label is "soft_lutpair16";
+  attribute SOFT_HLUTNM of \shiftreg[22]_i_1\ : label is "soft_lutpair16";
+  attribute SOFT_HLUTNM of \shiftreg[23]_i_1\ : label is "soft_lutpair17";
+  attribute SOFT_HLUTNM of \shiftreg[24]_i_1\ : label is "soft_lutpair17";
+  attribute SOFT_HLUTNM of \shiftreg[25]_i_1\ : label is "soft_lutpair18";
+  attribute SOFT_HLUTNM of \shiftreg[26]_i_1\ : label is "soft_lutpair18";
+  attribute SOFT_HLUTNM of \shiftreg[27]_i_1\ : label is "soft_lutpair19";
+  attribute SOFT_HLUTNM of \shiftreg[28]_i_1\ : label is "soft_lutpair19";
+  attribute SOFT_HLUTNM of \shiftreg[29]_i_1\ : label is "soft_lutpair20";
+  attribute SOFT_HLUTNM of \shiftreg[2]_i_1\ : label is "soft_lutpair6";
+  attribute SOFT_HLUTNM of \shiftreg[30]_i_1\ : label is "soft_lutpair20";
+  attribute SOFT_HLUTNM of \shiftreg[3]_i_1\ : label is "soft_lutpair7";
+  attribute SOFT_HLUTNM of \shiftreg[4]_i_1\ : label is "soft_lutpair7";
+  attribute SOFT_HLUTNM of \shiftreg[5]_i_1\ : label is "soft_lutpair8";
+  attribute SOFT_HLUTNM of \shiftreg[6]_i_1\ : label is "soft_lutpair8";
+  attribute SOFT_HLUTNM of \shiftreg[7]_i_1\ : label is "soft_lutpair9";
+  attribute SOFT_HLUTNM of \shiftreg[8]_i_1\ : label is "soft_lutpair9";
+  attribute SOFT_HLUTNM of \shiftreg[9]_i_1\ : label is "soft_lutpair10";
 begin
   bclk_i_reg_0 <= \^bclk_i_reg_0\;
   lrck <= \^lrck\;
@@ -691,7 +691,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(16),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(0),
+      I2 => data_word(16),
       O => \shiftreg[16]_i_1_n_0\
     );
 \shiftreg[17]_i_1\: unisim.vcomponents.LUT3
@@ -701,7 +701,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(17),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(1),
+      I2 => data_word(17),
       O => \shiftreg[17]_i_1_n_0\
     );
 \shiftreg[18]_i_1\: unisim.vcomponents.LUT3
@@ -711,7 +711,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(18),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(2),
+      I2 => data_word(18),
       O => \shiftreg[18]_i_1_n_0\
     );
 \shiftreg[19]_i_1\: unisim.vcomponents.LUT3
@@ -721,7 +721,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(19),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(3),
+      I2 => data_word(19),
       O => \shiftreg[19]_i_1_n_0\
     );
 \shiftreg[1]_i_1\: unisim.vcomponents.LUT3
@@ -741,7 +741,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(20),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(4),
+      I2 => data_word(20),
       O => \shiftreg[20]_i_1_n_0\
     );
 \shiftreg[21]_i_1\: unisim.vcomponents.LUT3
@@ -751,7 +751,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(21),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(5),
+      I2 => data_word(21),
       O => \shiftreg[21]_i_1_n_0\
     );
 \shiftreg[22]_i_1\: unisim.vcomponents.LUT3
@@ -761,7 +761,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(22),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(6),
+      I2 => data_word(22),
       O => \shiftreg[22]_i_1_n_0\
     );
 \shiftreg[23]_i_1\: unisim.vcomponents.LUT3
@@ -771,7 +771,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(23),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(7),
+      I2 => data_word(23),
       O => \shiftreg[23]_i_1_n_0\
     );
 \shiftreg[24]_i_1\: unisim.vcomponents.LUT3
@@ -781,7 +781,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(24),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(8),
+      I2 => data_word(24),
       O => \shiftreg[24]_i_1_n_0\
     );
 \shiftreg[25]_i_1\: unisim.vcomponents.LUT3
@@ -791,7 +791,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(25),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(9),
+      I2 => data_word(25),
       O => \shiftreg[25]_i_1_n_0\
     );
 \shiftreg[26]_i_1\: unisim.vcomponents.LUT3
@@ -801,7 +801,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(26),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(10),
+      I2 => data_word(26),
       O => \shiftreg[26]_i_1_n_0\
     );
 \shiftreg[27]_i_1\: unisim.vcomponents.LUT3
@@ -811,7 +811,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(27),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(11),
+      I2 => data_word(27),
       O => \shiftreg[27]_i_1_n_0\
     );
 \shiftreg[28]_i_1\: unisim.vcomponents.LUT3
@@ -821,7 +821,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(28),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(12),
+      I2 => data_word(28),
       O => \shiftreg[28]_i_1_n_0\
     );
 \shiftreg[29]_i_1\: unisim.vcomponents.LUT3
@@ -831,7 +831,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(29),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(13),
+      I2 => data_word(29),
       O => \shiftreg[29]_i_1_n_0\
     );
 \shiftreg[2]_i_1\: unisim.vcomponents.LUT3
@@ -851,7 +851,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(30),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(14),
+      I2 => data_word(30),
       O => \shiftreg[30]_i_1_n_0\
     );
 \shiftreg[31]_i_3\: unisim.vcomponents.LUT3
@@ -861,7 +861,7 @@ make12p5MHz: entity work.design_1_lowlevel_dac_intfc_0_0_clkdivider
         port map (
       I0 => SHIFT_LEFT(31),
       I1 => \shiftreg[31]_i_5_n_0\,
-      I2 => data_word(15),
+      I2 => data_word(31),
       O => \shiftreg[31]_i_3_n_0\
     );
 \shiftreg[31]_i_5\: unisim.vcomponents.LUT5
@@ -1211,7 +1211,7 @@ entity design_1_lowlevel_dac_intfc_0_0 is
   port (
     resetn : in STD_LOGIC;
     clk125 : in STD_LOGIC;
-    data_word : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    data_word : in STD_LOGIC_VECTOR ( 31 downto 0 );
     sdata : out STD_LOGIC;
     lrck : out STD_LOGIC;
     bclk : out STD_LOGIC;
@@ -1241,13 +1241,13 @@ architecture STRUCTURE of design_1_lowlevel_dac_intfc_0_0 is
   attribute x_interface_parameter of resetn : signal is "XIL_INTERFACENAME resetn, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   attribute x_interface_info of valid : signal is "xilinx.com:interface:axis:1.0 data_in TVALID";
   attribute x_interface_info of data_word : signal is "xilinx.com:interface:axis:1.0 data_in TDATA";
-  attribute x_interface_parameter of data_word : signal is "XIL_INTERFACENAME data_in, TDATA_NUM_BYTES 2, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 125000000, PHASE 0.0, CLK_DOMAIN design_1_clk125, LAYERED_METADATA undef, INSERT_VIP 0";
+  attribute x_interface_parameter of data_word : signal is "XIL_INTERFACENAME data_in, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 125000000, PHASE 0.0, CLK_DOMAIN design_1_clk125, LAYERED_METADATA undef, INSERT_VIP 0";
 begin
 U0: entity work.design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
      port map (
       bclk_i_reg_0 => bclk,
       clk125 => clk125,
-      data_word(15 downto 0) => data_word(15 downto 0),
+      data_word(31 downto 0) => data_word(31 downto 0),
       latched_data => latched_data,
       lrck => lrck,
       mclk => mclk,

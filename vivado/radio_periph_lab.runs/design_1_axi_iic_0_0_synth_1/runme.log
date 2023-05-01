@@ -11,10 +11,10 @@
 
 source design_1_axi_iic_0_0.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/program/Vivado/2022.1/data/ip'.
 WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
-Current IP cache path is g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.cache/ip 
+Current IP cache path is g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/ip 
 Command: synth_design -top design_1_axi_iic_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
@@ -22,11 +22,11 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 2780
+INFO: [Synth 8-7075] Helper process launched with PID 23044
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1293.902 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1294.156 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_axi_iic_0_0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/synth/design_1_axi_iic_0_0.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_iic_0_0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/synth/design_1_axi_iic_0_0.vhd:91]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -42,188 +42,188 @@ INFO: [Synth 8-638] synthesizing module 'design_1_axi_iic_0_0' [g:/projects/lab6
 	Parameter C_STATIC_TIMING_REG_WIDTH bound to: 0 - type: integer 
 	Parameter C_TIMING_REG_WIDTH bound to: 32 - type: integer 
 	Parameter C_DEFAULT_VALUE bound to: 8'b00000001 
-INFO: [Synth 8-3491] module 'axi_iic' declared at 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6832' bound to instance 'U0' of component 'axi_iic' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/synth/design_1_axi_iic_0_0.vhd:184]
-INFO: [Synth 8-638] synthesizing module 'axi_iic' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6906]
-INFO: [Synth 8-638] synthesizing module 'iic' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6210]
-INFO: [Synth 8-638] synthesizing module 'axi_ipif_ssp1' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5677]
-INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
-INFO: [Synth 8-638] synthesizing module 'slave_attachment' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
-INFO: [Synth 8-638] synthesizing module 'address_decoder' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
-INFO: [Synth 8-638] synthesizing module 'pselect_f' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized7' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized7' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized8' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized8' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized9' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized9' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized10' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized10' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized11' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized11' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized12' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized12' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized13' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized13' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized14' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized14' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized15' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized15' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized16' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized16' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized17' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized17' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized18' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized18' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized19' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized19' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized20' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized20' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized21' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized21' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized22' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized22' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized23' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized23' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized24' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized24' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized25' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized25' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized26' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized26' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized27' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized27' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized28' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized28' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized29' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized29' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized30' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized30' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized31' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized31' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized32' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized32' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized33' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized33' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized34' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized34' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized35' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized35' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
-INFO: [Synth 8-256] done synthesizing module 'address_decoder' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
-INFO: [Synth 8-226] default block is never used [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
-INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
-INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
-INFO: [Synth 8-638] synthesizing module 'interrupt_control' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
-INFO: [Synth 8-256] done synthesizing module 'interrupt_control' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
-INFO: [Synth 8-638] synthesizing module 'soft_reset' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:141]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:272]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:272]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:272]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:272]
-INFO: [Synth 8-113] binding component instance 'FF_WRACK' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:295]
-INFO: [Synth 8-256] done synthesizing module 'soft_reset' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:141]
-INFO: [Synth 8-256] done synthesizing module 'axi_ipif_ssp1' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5677]
-INFO: [Synth 8-638] synthesizing module 'reg_interface' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:1685]
-INFO: [Synth 8-256] done synthesizing module 'reg_interface' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:1685]
-INFO: [Synth 8-638] synthesizing module 'filter' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5001]
-INFO: [Synth 8-638] synthesizing module 'debounce' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:1315]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-3491] module 'axi_iic' declared at 'g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6832' bound to instance 'U0' of component 'axi_iic' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/synth/design_1_axi_iic_0_0.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'axi_iic' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6906]
+INFO: [Synth 8-638] synthesizing module 'iic' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6210]
+INFO: [Synth 8-638] synthesizing module 'axi_ipif_ssp1' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5677]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized7' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized7' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized8' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized8' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized9' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized9' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized10' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized10' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized11' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized11' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized12' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized12' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized13' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized13' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized14' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized14' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized15' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized15' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized16' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized16' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized17' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized17' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized18' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized18' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized19' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized19' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized20' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized20' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized21' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized21' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized22' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized22' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized23' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized23' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized24' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized24' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized25' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized25' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized26' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized26' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized27' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized27' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized28' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized28' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized29' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized29' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized30' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized30' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized31' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized31' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized32' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized32' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized33' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized33' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized34' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized34' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized35' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized35' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'interrupt_control' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'interrupt_control' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'soft_reset' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:141]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:272]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:272]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:272]
+INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:272]
+INFO: [Synth 8-113] binding component instance 'FF_WRACK' to cell 'FDRSE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:295]
+INFO: [Synth 8-256] done synthesizing module 'soft_reset' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:141]
+INFO: [Synth 8-256] done synthesizing module 'axi_ipif_ssp1' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5677]
+INFO: [Synth 8-638] synthesizing module 'reg_interface' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:1685]
+INFO: [Synth 8-256] done synthesizing module 'reg_interface' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:1685]
+INFO: [Synth 8-638] synthesizing module 'filter' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5001]
+INFO: [Synth 8-638] synthesizing module 'debounce' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:1315]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'debounce' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:1315]
-INFO: [Synth 8-256] done synthesizing module 'filter' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5001]
-INFO: [Synth 8-638] synthesizing module 'iic_control' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:2919]
-INFO: [Synth 8-638] synthesizing module 'upcnt_n' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:740]
-INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:740]
-INFO: [Synth 8-638] synthesizing module 'shift8' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:897]
-INFO: [Synth 8-256] done synthesizing module 'shift8' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:897]
-INFO: [Synth 8-638] synthesizing module 'upcnt_n__parameterized0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:740]
-INFO: [Synth 8-256] done synthesizing module 'upcnt_n__parameterized0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:740]
-INFO: [Synth 8-256] done synthesizing module 'iic_control' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:2919]
-INFO: [Synth 8-638] synthesizing module 'SRL_FIFO' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:449]
-INFO: [Synth 8-3491] module 'FDR' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27823' bound to instance 'Data_Exists_DFF' of component 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:543]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'debounce' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:1315]
+INFO: [Synth 8-256] done synthesizing module 'filter' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5001]
+INFO: [Synth 8-638] synthesizing module 'iic_control' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:2919]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:740]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:740]
+INFO: [Synth 8-638] synthesizing module 'shift8' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:897]
+INFO: [Synth 8-256] done synthesizing module 'shift8' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:897]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n__parameterized0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:740]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n__parameterized0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:740]
+INFO: [Synth 8-256] done synthesizing module 'iic_control' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:2919]
+INFO: [Synth 8-638] synthesizing module 'SRL_FIFO' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:449]
+INFO: [Synth 8-3491] module 'FDR' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27823' bound to instance 'Data_Exists_DFF' of component 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:543]
 INFO: [Synth 8-6157] synthesizing module 'FDR' [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27823]
 INFO: [Synth 8-6155] done synthesizing module 'FDR' (0#1) [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27823]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
 INFO: [Synth 8-6157] synthesizing module 'MUXCY_L' [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487]
 INFO: [Synth 8-6155] done synthesizing module 'MUXCY_L' (0#1) [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
 INFO: [Synth 8-6157] synthesizing module 'XORCY' [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336]
 INFO: [Synth 8-6155] done synthesizing module 'XORCY' (0#1) [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
 INFO: [Synth 8-6157] synthesizing module 'FDRE' [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836]
 INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
 INFO: [Synth 8-6157] synthesizing module 'SRL16E' [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998]
 INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'SRL_FIFO' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:449]
-INFO: [Synth 8-638] synthesizing module 'dynamic_master' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5220]
-INFO: [Synth 8-256] done synthesizing module 'dynamic_master' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5220]
-INFO: [Synth 8-638] synthesizing module 'SRL_FIFO__parameterized0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:449]
-INFO: [Synth 8-3491] module 'FDR' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27823' bound to instance 'Data_Exists_DFF' of component 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:543]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
-INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
-INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
-INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
-INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'SRL_FIFO__parameterized0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:449]
-INFO: [Synth 8-256] done synthesizing module 'iic' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6210]
-INFO: [Synth 8-256] done synthesizing module 'axi_iic' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6906]
-INFO: [Synth 8-256] done synthesizing module 'design_1_axi_iic_0_0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/synth/design_1_axi_iic_0_0.vhd:91]
-WARNING: [Synth 8-6014] Unused sequential element ro_a_reg was removed.  [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:2281]
-WARNING: [Synth 8-6014] Unused sequential element sda_cout_reg_d1_reg was removed.  [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:3669]
-WARNING: [Synth 8-6014] Unused sequential element gen_stop_and_scl_hi_reg was removed.  [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:3890]
-WARNING: [Synth 8-6014] Unused sequential element dynamic_MSMS_d_reg was removed.  [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5281]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'SRL_FIFO' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:449]
+INFO: [Synth 8-638] synthesizing module 'dynamic_master' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5220]
+INFO: [Synth 8-256] done synthesizing module 'dynamic_master' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5220]
+INFO: [Synth 8-638] synthesizing module 'SRL_FIFO__parameterized0' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:449]
+INFO: [Synth 8-3491] module 'FDR' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27823' bound to instance 'Data_Exists_DFF' of component 'FDR' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:543]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:66487' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:560]
+INFO: [Synth 8-3491] module 'XORCY' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:110336' bound to instance 'XORCY_I' of component 'XORCY' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:567]
+INFO: [Synth 8-3491] module 'FDRE' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836' bound to instance 'FDRE_I' of component 'FDRE' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:573]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-3491] module 'SRL16E' declared at 'G:/program/Vivado/2022.1/scripts/rt/data/unisim_comp.v:105998' bound to instance 'SRL16E_I' of component 'SRL16E' [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'SRL_FIFO__parameterized0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:449]
+INFO: [Synth 8-256] done synthesizing module 'iic' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6210]
+INFO: [Synth 8-256] done synthesizing module 'axi_iic' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:6906]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_iic_0_0' (0#1) [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/synth/design_1_axi_iic_0_0.vhd:91]
+WARNING: [Synth 8-6014] Unused sequential element ro_a_reg was removed.  [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:2281]
+WARNING: [Synth 8-6014] Unused sequential element sda_cout_reg_d1_reg was removed.  [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:3669]
+WARNING: [Synth 8-6014] Unused sequential element gen_stop_and_scl_hi_reg was removed.  [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:3890]
+WARNING: [Synth 8-6014] Unused sequential element dynamic_MSMS_d_reg was removed.  [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ipshared/eddf/hdl/axi_iic_v2_1_vh_rfs.vhd:5281]
 WARNING: [Synth 8-7129] Port Cr[0] in module dynamic_master is either unconnected or has no load
 WARNING: [Synth 8-7129] Port Cr[1] in module dynamic_master is either unconnected or has no load
 WARNING: [Synth 8-7129] Port Cr[2] in module dynamic_master is either unconnected or has no load
@@ -326,57 +326,57 @@ WARNING: [Synth 8-7129] Port Bus2IP_Data[15] in module soft_reset is either unco
 WARNING: [Synth 8-7129] Port Bus2IP_Data[16] in module soft_reset is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1293.902 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1294.156 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1293.902 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1294.156 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1293.902 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1294.156 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1293.902 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1294.156 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_ooc.xdc] for cell 'U0'
-Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_board.xdc] for cell 'U0'
-Finished Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_board.xdc] for cell 'U0'
-Parsing XDC File [G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_axi_iic_0_0/design_1_axi_iic_0_0_board.xdc] for cell 'U0'
+Parsing XDC File [G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1376.949 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1376.070 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 32 instances were transformed.
   FDR => FDRE: 15 instances
   FDRSE => FDRSE (FDRE, LUT4, VCC): 5 instances
   MUXCY_L => MUXCY: 12 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1378.965 ; gain = 2.016
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1377.871 ; gain = 1.801
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
 INFO: [Synth 8-802] inferred FSM for state register 'scl_state_reg' in module 'iic_control'
@@ -418,7 +418,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'scl_state_reg' using encoding 'one-hot' in module 'iic_control'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -479,25 +479,25 @@ INFO: [Synth 8-3332] Sequential element (X_IIC/FILTER_I/SCL_DEBOUNCE/INPUT_DOUBL
 INFO: [Synth 8-3332] Sequential element (X_IIC/FILTER_I/SDA_DEBOUNCE/INPUT_DOUBLE_REGS/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_iic.
 INFO: [Synth 8-3332] Sequential element (X_IIC/FILTER_I/SDA_DEBOUNCE/INPUT_DOUBLE_REGS/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_iic.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -515,37 +515,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -578,18 +578,18 @@ Report Cell Usage:
 |15    |FDSE    |    39|
 +------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1377.871 ; gain = 83.715
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 51 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:45 . Memory (MB): peak = 1378.965 ; gain = 0.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1378.965 ; gain = 85.062
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 1377.871 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1377.871 ; gain = 83.715
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1378.965 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1377.871 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1378.965 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1377.871 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 14 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 3 instances
@@ -599,10 +599,10 @@ Synth Design complete, checksum: 1d54e5fd
 INFO: [Common 17-83] Releasing license: Synthesis
 204 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 1378.965 ; gain = 85.062
-INFO: [Common 17-1381] The checkpoint 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/design_1_axi_iic_0_0.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 1377.871 ; gain = 83.715
+INFO: [Common 17-1381] The checkpoint 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/design_1_axi_iic_0_0.dcp' has been generated.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_iic_0_0, cache-ID = f744c2fae88eebf3
 INFO: [Coretcl 2-1174] Renamed 24 cell refs.
-INFO: [Common 17-1381] The checkpoint 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/design_1_axi_iic_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_axi_iic_0_0_synth_1/design_1_axi_iic_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_iic_0_0_utilization_synth.rpt -pb design_1_axi_iic_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 28 18:25:37 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon May  1 09:38:52 2023...

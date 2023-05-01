@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/design_1_lowlevel_dac_intfc_0_0_synth_1'
+HD_PWD='G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/design_1_lowlevel_dac_intfc_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

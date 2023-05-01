@@ -1,0 +1,26 @@
+20:33:29 DEBUG : Logs will be stored at 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vitis_7/IDE.log'.
+20:33:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vitis_7\temp_xsdb_launch_script.tcl
+20:33:31 INFO  : Registering command handlers for Vitis TCF services
+20:33:31 INFO  : Platform repository initialization has completed.
+20:33:33 INFO  : XSCT server has started successfully.
+20:33:33 INFO  : Successfully done setting XSCT server connection channel  
+20:33:33 INFO  : plnx-install-location is set to ''
+20:33:33 INFO  : Successfully done setting workspace for the tool. 
+20:33:33 INFO  : Successfully done query RDI_DATADIR 
+20:35:53 INFO  : Result from executing command 'getProjects': design_1_wrapper
+20:35:53 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+20:35:53 WARN  : An unexpected exception occurred in the module 'platform project logging'
+20:35:54 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+20:36:09 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+20:36:47 INFO  : Result from executing command 'getProjects': design_1_wrapper
+20:36:47 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vitis_7/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|G:/program/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+00:19:33 DEBUG : Logs will be stored at 'G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vitis_7/IDE.log'.
+00:19:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive G:\projects\lab6\radio_periph_lab\radio_periph_lab\Radio_periph_lab_lab7\vitis_7\temp_xsdb_launch_script.tcl
+00:19:36 INFO  : XSCT server has started successfully.
+00:19:36 INFO  : Successfully done setting XSCT server connection channel  
+00:19:36 INFO  : plnx-install-location is set to ''
+00:19:36 INFO  : Successfully done setting workspace for the tool. 
+00:19:36 INFO  : Successfully done query RDI_DATADIR 
+00:19:37 INFO  : Platform repository initialization has completed.
+00:19:37 INFO  : Registering command handlers for Vitis TCF services
+00:20:13 INFO  : Hardware specification for platform project 'design_1_wrapper' is updated.

@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/impl_1/design_1_wrapper.tcl"
+  variable script "G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/impl_1/design_1_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -129,22 +129,22 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.cache/wt [current_project]
-  set_property parent.project_path G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.xpr [current_project]
-  set_property ip_repo_paths G:/projects/lab6/radio_periph_lab/radio_periph_lab/ip_repo [current_project]
+  set_property webtalk.parent_dir G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/wt [current_project]
+  set_property parent.project_path G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.xpr [current_project]
+  set_property ip_repo_paths G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/ip_repo [current_project]
   update_ip_catalog
-  set_property ip_output_repo G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.cache/ip [current_project]
+  set_property ip_output_repo G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.runs/synth_1/design_1_wrapper.dcp
+  add_files -quiet G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.runs/synth_1/design_1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files G:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd
+  add_files G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
-  read_xdc G:/projects/lab6/radio_periph_lab/radio_periph_lab/src/toplevel.xdc
+  read_xdc G:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/src/toplevel.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

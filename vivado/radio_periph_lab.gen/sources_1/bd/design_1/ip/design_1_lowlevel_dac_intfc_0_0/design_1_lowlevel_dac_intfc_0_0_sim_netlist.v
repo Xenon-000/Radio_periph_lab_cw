@@ -1,10 +1,10 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
-// Date        : Fri Apr 28 18:25:24 2023
+// Date        : Mon May  1 09:38:42 2023
 // Host        : DESKTOP-1K6AF7C running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               g:/projects/lab6/radio_periph_lab/radio_periph_lab/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_lowlevel_dac_intfc_0_0/design_1_lowlevel_dac_intfc_0_0_sim_netlist.v
+//               g:/projects/lab6/radio_periph_lab/radio_periph_lab/Radio_periph_lab_lab7/vivado/radio_periph_lab.gen/sources_1/bd/design_1/ip/design_1_lowlevel_dac_intfc_0_0/design_1_lowlevel_dac_intfc_0_0_sim_netlist.v
 // Design      : design_1_lowlevel_dac_intfc_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -27,7 +27,7 @@ module design_1_lowlevel_dac_intfc_0_0
     valid);
   (* x_interface_info = "xilinx.com:signal:reset:1.0 resetn RST" *) (* x_interface_parameter = "XIL_INTERFACENAME resetn, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input resetn;
   (* x_interface_info = "xilinx.com:signal:clock:1.0 clk125 CLK" *) (* x_interface_parameter = "XIL_INTERFACENAME clk125, ASSOCIATED_RESET resetn, ASSOCIATED_BUSIF data_in, FREQ_TOLERANCE_HZ -1, FREQ_HZ 125000000, PHASE 0.0, CLK_DOMAIN design_1_clk125, INSERT_VIP 0" *) input clk125;
-  (* x_interface_info = "xilinx.com:interface:axis:1.0 data_in TDATA" *) (* x_interface_parameter = "XIL_INTERFACENAME data_in, TDATA_NUM_BYTES 2, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 125000000, PHASE 0.0, CLK_DOMAIN design_1_clk125, LAYERED_METADATA undef, INSERT_VIP 0" *) input [15:0]data_word;
+  (* x_interface_info = "xilinx.com:interface:axis:1.0 data_in TDATA" *) (* x_interface_parameter = "XIL_INTERFACENAME data_in, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 125000000, PHASE 0.0, CLK_DOMAIN design_1_clk125, LAYERED_METADATA undef, INSERT_VIP 0" *) input [31:0]data_word;
   output sdata;
   output lrck;
   output bclk;
@@ -37,7 +37,7 @@ module design_1_lowlevel_dac_intfc_0_0
 
   wire bclk;
   wire clk125;
-  wire [15:0]data_word;
+  wire [31:0]data_word;
   wire latched_data;
   wire lrck;
   wire mclk;
@@ -345,7 +345,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
   output latched_data;
   input clk125;
   input resetn;
-  input [15:0]data_word;
+  input [31:0]data_word;
 
   wire [31:1]SHIFT_LEFT;
   wire bclk_i_reg_0;
@@ -355,7 +355,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
   wire [4:0]bitcount_reg;
   wire clear;
   wire clk125;
-  wire [15:0]data_word;
+  wire [31:0]data_word;
   wire latched_data;
   wire lrck;
   wire lrck_i_2_n_0;
@@ -531,7 +531,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I4(bitcount_reg[4]),
         .I5(bitcount_reg[0]),
         .O(\shiftreg[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair15" *) 
+  (* SOFT_HLUTNM = "soft_lutpair10" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[10]_i_1 
@@ -539,7 +539,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[10]),
         .O(\shiftreg[10]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair16" *) 
+  (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[11]_i_1 
@@ -547,7 +547,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[11]),
         .O(\shiftreg[11]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair17" *) 
+  (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[12]_i_1 
@@ -555,7 +555,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[12]),
         .O(\shiftreg[12]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair18" *) 
+  (* SOFT_HLUTNM = "soft_lutpair12" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[13]_i_1 
@@ -563,7 +563,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[13]),
         .O(\shiftreg[13]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair19" *) 
+  (* SOFT_HLUTNM = "soft_lutpair12" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[14]_i_1 
@@ -571,7 +571,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[14]),
         .O(\shiftreg[14]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair20" *) 
+  (* SOFT_HLUTNM = "soft_lutpair13" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[15]_i_1 
@@ -579,36 +579,37 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[15]),
         .O(\shiftreg[15]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair13" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[16]_i_1 
        (.I0(SHIFT_LEFT[16]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[0]),
+        .I2(data_word[16]),
         .O(\shiftreg[16]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
+  (* SOFT_HLUTNM = "soft_lutpair14" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[17]_i_1 
        (.I0(SHIFT_LEFT[17]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[1]),
+        .I2(data_word[17]),
         .O(\shiftreg[17]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
+  (* SOFT_HLUTNM = "soft_lutpair14" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[18]_i_1 
        (.I0(SHIFT_LEFT[18]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[2]),
+        .I2(data_word[18]),
         .O(\shiftreg[18]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
+  (* SOFT_HLUTNM = "soft_lutpair15" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[19]_i_1 
        (.I0(SHIFT_LEFT[19]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[3]),
+        .I2(data_word[19]),
         .O(\shiftreg[19]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT3 #(
@@ -618,87 +619,87 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[1]),
         .O(\shiftreg[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  (* SOFT_HLUTNM = "soft_lutpair15" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[20]_i_1 
        (.I0(SHIFT_LEFT[20]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[4]),
+        .I2(data_word[20]),
         .O(\shiftreg[20]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
+  (* SOFT_HLUTNM = "soft_lutpair16" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[21]_i_1 
        (.I0(SHIFT_LEFT[21]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[5]),
+        .I2(data_word[21]),
         .O(\shiftreg[21]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
+  (* SOFT_HLUTNM = "soft_lutpair16" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[22]_i_1 
        (.I0(SHIFT_LEFT[22]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[6]),
+        .I2(data_word[22]),
         .O(\shiftreg[22]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
+  (* SOFT_HLUTNM = "soft_lutpair17" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[23]_i_1 
        (.I0(SHIFT_LEFT[23]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[7]),
+        .I2(data_word[23]),
         .O(\shiftreg[23]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair13" *) 
+  (* SOFT_HLUTNM = "soft_lutpair17" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[24]_i_1 
        (.I0(SHIFT_LEFT[24]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[8]),
+        .I2(data_word[24]),
         .O(\shiftreg[24]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
+  (* SOFT_HLUTNM = "soft_lutpair18" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[25]_i_1 
        (.I0(SHIFT_LEFT[25]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[9]),
+        .I2(data_word[25]),
         .O(\shiftreg[25]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair15" *) 
+  (* SOFT_HLUTNM = "soft_lutpair18" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[26]_i_1 
        (.I0(SHIFT_LEFT[26]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[10]),
+        .I2(data_word[26]),
         .O(\shiftreg[26]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair16" *) 
+  (* SOFT_HLUTNM = "soft_lutpair19" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[27]_i_1 
        (.I0(SHIFT_LEFT[27]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[11]),
+        .I2(data_word[27]),
         .O(\shiftreg[27]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair17" *) 
+  (* SOFT_HLUTNM = "soft_lutpair19" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[28]_i_1 
        (.I0(SHIFT_LEFT[28]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[12]),
+        .I2(data_word[28]),
         .O(\shiftreg[28]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair18" *) 
+  (* SOFT_HLUTNM = "soft_lutpair20" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[29]_i_1 
        (.I0(SHIFT_LEFT[29]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[13]),
+        .I2(data_word[29]),
         .O(\shiftreg[29]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
+  (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[2]_i_1 
@@ -706,21 +707,20 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[2]),
         .O(\shiftreg[2]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair19" *) 
+  (* SOFT_HLUTNM = "soft_lutpair20" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[30]_i_1 
        (.I0(SHIFT_LEFT[30]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[14]),
+        .I2(data_word[30]),
         .O(\shiftreg[30]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair20" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[31]_i_3 
        (.I0(SHIFT_LEFT[31]),
         .I1(\shiftreg[31]_i_5_n_0 ),
-        .I2(data_word[15]),
+        .I2(data_word[31]),
         .O(\shiftreg[31]_i_3_n_0 ));
   LUT5 #(
     .INIT(32'hFFFFFFFD)) 
@@ -731,7 +731,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I3(bitcount_reg[2]),
         .I4(bitcount_reg[3]),
         .O(\shiftreg[31]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[3]_i_1 
@@ -739,7 +739,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[3]),
         .O(\shiftreg[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[4]_i_1 
@@ -747,7 +747,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[4]),
         .O(\shiftreg[4]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
+  (* SOFT_HLUTNM = "soft_lutpair8" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[5]_i_1 
@@ -755,7 +755,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[5]),
         .O(\shiftreg[5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
+  (* SOFT_HLUTNM = "soft_lutpair8" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[6]_i_1 
@@ -763,7 +763,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[6]),
         .O(\shiftreg[6]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
+  (* SOFT_HLUTNM = "soft_lutpair9" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[7]_i_1 
@@ -771,7 +771,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[7]),
         .O(\shiftreg[7]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair13" *) 
+  (* SOFT_HLUTNM = "soft_lutpair9" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[8]_i_1 
@@ -779,7 +779,7 @@ module design_1_lowlevel_dac_intfc_0_0_lowlevel_dac_intfc
         .I1(\shiftreg[31]_i_5_n_0 ),
         .I2(data_word[8]),
         .O(\shiftreg[8]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
+  (* SOFT_HLUTNM = "soft_lutpair10" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \shiftreg[9]_i_1 
